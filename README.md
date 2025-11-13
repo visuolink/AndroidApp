@@ -22,9 +22,10 @@ VisuoLink is a revolutionary gesture-based control application for Android power
 
 ## 📸 Preview
 
-![visuolink_light](https://github.com/user-attachments/assets/a2016cd3-06ac-4305-9c67-f75f53bffcfd)
-![visuolink_dark](https://github.com/user-attachments/assets/bf56220e-9cb2-47d3-a226-6f2899279f6e)
-
+<p float="left">
+   <img src="https://github.com/user-attachments/assets/a2016cd3-06ac-4305-9c67-f75f53bffcfd" width="49%" />
+   <img src="https://github.com/user-attachments/assets/bf56220e-9cb2-47d3-a226-6f2899279f6e" width="49%" />
+</p>
 
 ---
 
