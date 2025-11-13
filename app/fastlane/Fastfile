@@ -1,0 +1,10 @@
+default_platform(:android)
+
+platform :android do
+  desc "Increment version code"
+  lane :increment_vc do
+    increment_version_code(
+      gradle_file_path: "./app/build.gradle"
+    )
+  end
+end

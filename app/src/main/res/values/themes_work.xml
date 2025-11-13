@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="CustomActionBarTheme_work" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:background">@color/toolbar</item>
+        <item name="android:titleTextColor">@color/toolbar_text</item>
+    </style>
+    <!-- Base application theme. -->
+    <style name="Theme.work" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#207EED</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/blue</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/black</item>
+        <!-- Customize your theme here. -->
+        <item name="actionBarTheme">@style/CustomActionBarTheme_work</item>
+        <item name="android:textColor">@color/mainTextColor</item>
+        <item name="background">@color/backgroundImgColor</item>
+
+        <item name="android:fontFamily">@fonts/work.ttf</item>
+    </style>
+
+    <style name="Theme.AppCompat.Light.NoActionBar.FullScreen_work" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+</resources>

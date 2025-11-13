@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true"
+    android:padding="16dp" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/visuolink_privacy_data_policy"
+        android:textSize="28sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:paddingBottom="8dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp">
+
+            <TextView
+                android:id="@+id/effective_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Effective Date: 27 Oct 25"
+                android:layout_marginBottom="8dp"
+                android:textAlignment="textEnd"
+                android:textSize="14sp"
+                android:textStyle="italic" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                app:cardCornerRadius="14dp"
+                app:cardElevation="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="?attr/background"
+                    android:padding="12dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1. Introduction"
+                        android:layout_marginBottom="4dp"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Welcome to VisuoLink. Your privacy and security are important to us. This policy explains how we handle the information you provide and the data the app may access. By using VisuoLink, you agree to these terms."
+                        android:textSize="16sp"
+                        android:layout_marginStart="12dp"
+                        android:paddingBottom="12dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2. Information We Collect"
+                        android:layout_marginBottom="4dp"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/policy_informationWeCollect"
+                    android:layout_marginStart="12dp"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/policy_informationWeCollect2"
+                    android:textSize="16sp"
+                    android:layout_marginStart="12dp"
+                    android:paddingBottom="12dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3. Information We Do NOT Collect"
+                    android:layout_marginBottom="4dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="VisuoLink does not access or transmit your camera or photos.\nNo other personal data is collected from your device without your explicit action."
+                    android:textSize="16sp"
+                    android:layout_marginStart="12dp"
+                    android:paddingBottom="12dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4. How We Use Your Information"
+                    android:layout_marginBottom="4dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="To update your profile information when you request changes.\nTo authenticate and maintain your account.\nTo deliver app updates and improve your experience."
+                    android:textSize="16sp"
+                    android:layout_marginStart="12dp"
+                    android:paddingBottom="12dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="5. Data Security"
+                    android:layout_marginBottom="4dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="We implement appropriate security measures to protect the data we collect. Information is transmitted securely and only for the purposes described above."
+                    android:textSize="16sp"
+                    android:layout_marginStart="12dp"
+                    android:paddingBottom="12dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="6. User Rights"
+                    android:layout_marginBottom="4dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="You can edit or delete your profile information at any time. We do not share your personal information with third parties except as required by law."
+                    android:textSize="16sp"
+                    android:layout_marginStart="12dp"
+                    android:paddingBottom="12dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="7. Changes to this Policy"
+                    android:layout_marginBottom="4dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="VisuoLink may update this policy from time to time. We will notify you of significant changes through the app. Continued use of VisuoLink constitutes acceptance of the updated policy."
+                    android:textSize="16sp"
+                    android:layout_marginStart="12dp"
+                    android:paddingBottom="12dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="8. Contact Us"
+                    android:layout_marginBottom="4dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/section_contact"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="For questions regarding this policy or your personal data, please contact us at: visuolink@gmail.com"
+                    android:textSize="16sp"
+                    android:autoLink="email"
+                    android:linksClickable="true"
+                    android:textColorLink="@android:color/holo_blue_dark"
+                    android:layout_marginStart="12dp"
+                    android:paddingBottom="12dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

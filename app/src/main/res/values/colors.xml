@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">@color/blue</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blue">#1B74DE</color>
+    <color name="toolbar">#FFFFFF</color>
+    <color name="toolbar_text">#1B74DE</color>
+    <color name="mainTextColor">#FF000000</color>
+    <color name="backgroundImgColor">#FBFBFB</color>
+    <color name="profileFullNameTextColor">#626262</color>
+    <color name="loadingCircular">#FFFFFF</color>
+    <color name="overlapCircle">#66000000</color>
+</resources>

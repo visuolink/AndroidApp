@@ -1,0 +1,4 @@
+/build
+*.apk
+app/release/
+app/debug/

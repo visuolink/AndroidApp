@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fontFamily">
+        <item>Roboto</item>
+        <item>Open</item>
+        <item>Lato</item>
+        <item>Work</item>
+        <item>Source</item>
+    </string-array>
+</resources>
