@@ -1,6 +1,7 @@
 # 👁️ VisuoLink
 
 VisuoLink is a revolutionary gesture-based control application for Android powered by ML Kit. Control your device with eye gestures, create custom hand gesture mappings, and launch apps without touching your screen—bringing a futuristic, touchless interaction experience to mobile devices.
+
 ---
 
 ## 🚀 Features
@@ -57,20 +58,41 @@ AndroidApp/
 
 ## 📥 Installation
 
-1. **Clone the repository**
+**From Release (Recommended)**
+1. Download the latest APK from Releases
+2. Enable "Install from Unknown Sources" in your device settings
+3. Install the APK
+4. Grant permissions when prompted
+5. Start using VisuoLink!
+
+**From Source**
+1. Clone the repository
 
    ```bash
-   git clone [https://github.com/visuolink/DesktopApp.git](https://github.com/visuolink/DesktopApp.git)
+   git clone [https://github.com/visuolink/AndroidApp.git](https://github.com/visuolink/AndroidApp.git)
    ```
 
-2. **Open in IDE(vs code)**
+2. **Open in Android Studio**
 
-   - Open the project from `File > Open`
+   - Open Android Studio
+   - Select "Open an Existing Project"
+   - Navigate to the cloned directory
+   - Wait for Gradle sync to complete
 
 3. **Run the App**
 
-   - Open the terminal and start the venv
-   - Run Command **Python -m Visuolink.main**
+   - Connect your Android device or start an emulato
+   - Click Run ▶️ in Android Studio
+
+---
+## Requirements
+
+   * Android Version: 5.0 (Lollipop) or higher (API 21+)
+   * Camera: Front-facing camera (720p or higher recommended)
+   * RAM: 4GB minimum (6GB recommended for smooth performance)
+   * Storage: 90MB free space
+   * Processor: Quad-core processor recommended
+   * Internet Connection: Required for authentication features
 
 ---
 
@@ -110,4 +132,4 @@ If you find a bug or want to improve the app:
 
 ## 📌 Tags
 
-`python` `gesture-recognition ` `mediapipe` `computer-version` `desktop-application` `kivy` `opencv`
+`Java` `ml-kit` `gesture-recognition ` `app-launcher` `computer-version` `android-application` `material-design` `android-studio`
